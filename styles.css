@@ -1,0 +1,41 @@
+.jumbotron {
+  background-color: #dadada;
+  margin-bottom: 0;
+  border-radius: 15px; /* Adjust the value to your preference */
+  padding: 3%;
+}
+
+/* General styles for skills section */
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 25px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  background-color: #007bff; /* Adjust color as needed */
+  transition: width 0.6s ease;
+}
+
+/* Optional: Different colors for different skills */
+.skill:nth-child(1) .progress-bar {
+  background-color: #f76c6c; /* Red for HTML */
+}
+
+.skill:nth-child(2) .progress-bar {
+  background-color: #6c63ff; /* Blue for CSS */
+}
+
+.skill:nth-child(3) .progress-bar {
+  background-color: #f7b731; /* Yellow for JavaScript */
+}
+
+.skill:nth-child(4) .progress-bar {
+  background-color: #28a745; /* Green for Bootstrap */
+}
